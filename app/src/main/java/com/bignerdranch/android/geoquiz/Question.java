@@ -1,20 +1,17 @@
 package com.bignerdranch.android.geoquiz;
 
-/**
- * Created by tey on 19.07.2018.
- */
-
+// Question and answer class
 public class Question {
 
     private int mTextResId;
     private boolean mAnswerTrue;
 
-    public Question (int textResId, boolean answerTrue) {
+    Question(int textResId, boolean answerTrue) {
         mTextResId = textResId;
         mAnswerTrue = answerTrue;
     }
 
-    public int getTextResId() {
+    int getTextResId() {
         return mTextResId;
     }
 
@@ -22,7 +19,7 @@ public class Question {
         mTextResId = textResId;
     }
 
-    public boolean isAnswerTrue() {
+    boolean isAnswerTrue() {
         return mAnswerTrue;
     }
 
